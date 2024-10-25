@@ -10,7 +10,7 @@ export default function SelectedSection(){
   const [selectedName, setSelectedName] = useState('Board')
 
   return (
-    <div className="flex gap-12 p-6">
+    <div className="flex gap-12 ">
       <div className={`flex gap-2 items-center cursor-pointer ${selectedName === 'List' ? 'text-primaryBlue font-bold border-b-2 border-b-primaryBlue transition-colors	duration-300' : 'text-gray-400'}`} onClick={()=>setSelectedName('List')}>
         <BsViewList />
         <p>List</p>
