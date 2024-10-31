@@ -1,4 +1,10 @@
-export default function Header(){
-  return(<><p>Hola esto es un header y me estoy mostrando en la app</p></>)
+'use client'
+import HeaderLeft from "./HeaderLeft";
+
+export default function Header() {
+  return (
+    <>
+    <HeaderLeft workspace="Hikoko Design" />
+  </>)
 
 }
