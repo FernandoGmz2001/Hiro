@@ -1,3 +1,4 @@
+'use client'
 import NavbarRight from "./NavbarRight";
 import SelectedSection from "./SelectedSection";
 

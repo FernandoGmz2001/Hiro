@@ -1,3 +1,4 @@
+'use client'
 import { AiOutlineMessage } from "react-icons/ai";
 import { GoBell } from "react-icons/go";
 import { LuSearch } from "react-icons/lu";
